@@ -6,7 +6,7 @@ customElements.define('wc-header', WCHeader);
 
 const button = Button({
     text: 'Test Button Component :)',
-    onClick: (event) => {
+    onClick: () => {
         const test = window.confirm('Do you want to add message: "Test text added :)"?');
         if(test){
             const divEl = document.createElement('div');
