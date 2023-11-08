@@ -1,0 +1,24 @@
+/* Global styles for the application */
+:root {
+    --header-background: #444444;
+    --white: #FFF;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+wc-header {
+    --background : var(--header-background);
+    --h1Color : var(--white);
+}
+.body{
+    color: #fff;
+    background-color: #333;
+}
